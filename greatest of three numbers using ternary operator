@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int n,n1,n2,t,r;
+    scanf("%d%d%d",&n,&n1,&n2);
+    t=n>n1?n:n1;
+    r=t>n2?t:n2;
+    printf("%d is largest among three numbers",r);
+    return 0;    
+}
